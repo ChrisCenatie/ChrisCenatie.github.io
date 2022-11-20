@@ -32,6 +32,10 @@ body {
   color: white;
 }
 
+.jumbotron .description {
+  margin: 0 5rem;
+}
+
 .navi {
   text-align: center;
 }
