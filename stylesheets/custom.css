@@ -37,19 +37,32 @@ body {
   color: white;
 }
 
-.jumbotron .description {
-  margin: 0 5rem;
-}
-
 .navi {
   text-align: center;
 }
 
-.jumbotron img {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.description {
+  display: flex;
+  margin-top: 1rem;
+}
+.description span {
+  max-width: 1050px;
+  margin: auto;
+  padding: 0 5rem;
+}
+
+.turing--container {
+  margin-top: 1rem;
+  height: 10rem;
+}
+.turing--container a { font-size: 24px; }
+.turing--container img { height: 100%; }
 
 @media (max-width: 767px) {
   .navbar a {
