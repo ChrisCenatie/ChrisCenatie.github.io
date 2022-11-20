@@ -15,8 +15,6 @@ body {
 .jumbotron {
   text-align: center;
   position: relative;
-  height: 100vh;
-  margin-top: 50px;
   background-image: url("../images/background.jpg");
   background-color: black;
   background-repeat: no-repeat;
@@ -30,6 +28,11 @@ body {
   color: white;
 }
 
+.jumbotron .heading-title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
 .jumbotron a {
   color: white;
 }
@@ -38,11 +41,36 @@ body {
   text-align: center;
 }
 
-.jumbotron img {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.description {
+  display: flex;
+  margin-top: 1rem;
+}
+.description span {
+  max-width: 1050px;
+  margin: auto;
+  padding: 0 5rem;
+}
+
+.turing--container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.turing--container a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  font-size: 24px;
+}
+.turing--container a::after{
+  content: url("../images/turing_logo.png");
+}
 
 @media (max-width: 767px) {
   .navbar a {
