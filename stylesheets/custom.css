@@ -58,11 +58,19 @@ body {
 }
 
 .turing--container {
-  margin-top: 1rem;
-  height: 10rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
-.turing--container a { font-size: 24px; }
-.turing--container img { height: 100%; }
+.turing--container a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  font-size: 24px;
+}
+.turing--container a::after{
+  content: url("../images/turing_logo.png");
+}
 
 @media (max-width: 767px) {
   .navbar a {
