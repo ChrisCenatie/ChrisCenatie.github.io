@@ -50,11 +50,16 @@ body {
 .description {
   display: flex;
   margin-top: 1rem;
+  text-align: left;
 }
-.description span {
+.description p {
   max-width: 1050px;
   margin: auto;
-  padding: 0 5rem;
+  padding: 1rem 5rem;
+}
+
+.description br {
+  margin-bottom: 2rem;
 }
 
 .turing--container {
@@ -77,4 +82,13 @@ body {
     margin: 3px;
   }
 
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .heading-title {
+    font-size: 20px;
+    font-weight: 300;
+  }
 }
